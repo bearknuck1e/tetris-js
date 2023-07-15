@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#root{
+    /* padding: 3rem; */
+    text-align: center;
+}
+
+#root h1{
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color:white;
+}
+
+#root canvas{
+    display:block;
+    margin: 0 auto;
+    /* border:4px solid white; */
+}
+
+.container-btn{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+
+    flex-basis: 100%;
+    padding: 15px;
+    margin-top: auto;
+    
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.panel-LR-btn{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 260px;
+    height: 70px;
+}
+.panel-LR-btn button{
+    width: 120px;
+    height: 60px;
+    margin: 0 auto;
+}
+.panel-D-btn{
+    display: flex;
+    width: 260px;
+    justify-content: center;
+}
+.panel-D-btn button{
+    width: 120px;
+    height: 60px;
+    margin: 0 auto;
+}
+.panel-2-btn{
+    display: flex;    
+    width: 70px;
+    align-items: center;
+}
+.panel-2-btn button{
+    width: 60px;
+    height: 50px;    
+    margin: 0 auto;
+}
+.panel-3-btn{
+    display: flex;   
+    width: 120px;
+    margin-left: 5px;
+}
+.panel-3-btn button{
+    width: 120px;    
+    margin: 0 auto;
+}
+.container-btn button{
+    text-transform: uppercase;
+    background: rgb(51, 51, 51, 0.8);
+    color: #ccc;
+    /* color:rgba(76, 175, 80, 0.6); */
+    border-radius: 12px;
+    border: 2px solid rgba(76, 175, 80, 0.6);
+}
